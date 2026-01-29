@@ -1,0 +1,22 @@
+{
+  "name": "async-job-system",
+  "version": "1.0.0",
+  "description": "Asynchronous Job Processing System with Redis and Worker Queues",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "start:worker": "node src/worker/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.13.4",
+    "bullmq": "^4.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.9.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.11.3"
+  }
+}
